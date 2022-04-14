@@ -1,0 +1,35 @@
+{
+  "name": "oauth2.0-github-login-test",
+  "version": "1.0.0",
+  "description": "Small Node.js app to test GitHub OAuth",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "lint": "eslint './**/*.js'",
+    "lint:fix": "eslint --fix './**/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xx745/oauth2.0-github-login-test.git"
+  },
+  "keywords": [
+    "oauth",
+    "github",
+    "nodejs"
+  ],
+  "author": "xx745",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xx745/oauth2.0-github-login-test/issues"
+  },
+  "homepage": "https://github.com/xx745/oauth2.0-github-login-test#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.13.0",
+    "nodemon": "^2.0.15"
+  }
+}
