@@ -18,7 +18,7 @@ module.exports = {
     'eol-last': ['error', 'always'],
     'no-dupe-keys': 'error',
     'no-irregular-whitespace': 'error',
-    'camelcase': 'error',
+    'camelcase': 'warn',
     'max-len': ['error', { code: 140, tabWidth: 2 }],
     'no-tabs': 'error',
     'comma-spacing': ['error', { before: false, after: true }],
